@@ -32,6 +32,15 @@ class TerminalController:
         ...     print 'This terminal supports clearning the screen.'
 
     Finally, if the width and height of the terminal are known, then
+    '
+    
+    
+    
+    
+    
+    
+    
+    
     they will be stored in the `COLS` and `LINES` attributes.
     """
     # Cursor movement:
