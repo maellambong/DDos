@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/zanyarjamal/xerxes/master/x/xerxes.c
+wget https://raw.githubusercontent.com/zanyarjamal/xerxes/master/tool/xerxes.c
 clang xerxes.c -o xerxes
 echo "example usage : ./xerxes www.test.com 80"
 exit
