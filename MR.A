@@ -122,11 +122,11 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-	print 'SadAttack Version 2.0 DDoS Tool Created By Hax Stroke '
-	print 'AnonGhost Team Page: http://facebook.com/anonghost.sec'
-	print 'New loaded Botnets: 39,445,657'
-	print 'Usage: SadAttack (url)'
-	print 'Example: Sadattack.py http://luthi.co.il/'
+	print ("\033[91mLoLxAttack Version 2.0 DDoS Tool Created By MR A  \033[0m") 
+	print ("\033[92mAnonGhost Team Page:  All Malaysia Coder \033[0m") 
+	print ("\033[93mNew loaded Botnets: 39,445,657 \033[0m") 
+	print ("\033[94mUsage: LoLxAttack (url) \033[0m") 
+	print ("\033[95mExample: LoLxAttack.py http://www.example.com \033[0m") 
 	print "\a"
 print \
 """                                                       
@@ -207,6 +207,16 @@ def httpcall(url):
 			print ("\033[92m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m") 
                         print ("\033[93m 4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06 \033[0m")
 			print ("\033[91m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m")
+			print ("\033[92m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m") 
+                        print ("\033[93m 4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06 \033[0m")
+			print ("\033[91m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m")
+			print ("\033[94m 37353638293tehdueudbd6453739364383tdhe6293udf93745647483y6r648494947 \033[0m")
+ 			print ("\033[92m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m") 
+                        print ("\033[93m 4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06 \033[0m")
+			print ("\033[91m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m")
+ 			print ("\033[94m 37353638293tehdueudbd6453739364383tdhe6293udf93745647483y6r648494947 \033[0m")
+ 			print ("\033[95m 652627435447389292t737837653768ghdiuehiuheyi3878297928hweiuyw9827y98 \033[0m")
+			print ("\033[92m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m") 
 			print '                                                                    '
 			code=500
 	except urllib2.URLError, e:
