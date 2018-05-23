@@ -128,8 +128,7 @@ def usage():
 	print ("\033[94mUsage: LoLxAttack (url) \033[0m") 
 	print ("\033[95mExample: LoLxAttack.py http://www.example.com \033[0m") 
 	print "\a"
-print \
-"""                                                       
+print ("\033[92m                                                    
                                   ###################
                               ###!!!!!!!!!!!!!!!!!!!####
                           ###!!!!!!!!!!!!!!!!!!!!!!!!!####
@@ -163,7 +162,7 @@ _________________________________________________________________
 
   Music : https://www.youtube.com/watch?v=iX1a3JngmpI   
 _________________________________________________________________                                                           
-"""
+\033[0m") 
 
 	
 #http request
