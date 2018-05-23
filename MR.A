@@ -187,13 +187,11 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print '                                                                    '  
-      print '537167832gse7828gs6267288e786783642673208473248793275638746732864765'  
+ 			print '                                                                    ' 
  			print '4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38'
-      print '4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06'
+                        print '4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06'
  			print '37353638293tehdueudbd6453739364383tdhe6293udf93745647483y6r648494947'
  			print '652627435447389292t737837653768ghdiuehiuheyi3878297928hweiuyw9827y98'
-      print '652627435447389292t7378376537768ghdiuehiuheyi3878297928hweiuw9827y98'
  			print '                                                                    '
 			code=500
 	except urllib2.URLError, e:
