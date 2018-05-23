@@ -187,11 +187,13 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print '                                                                    '
- 			print '#~~~~~~~> We Are AnonGhost <~~~~~~~~#~~~>Welcome for the sadness<~~#'
- 			print '#~~~~~~> Belong your database <~~~~~#~~~~~~~~~>Hello admin<~~~~~~~~#'
- 			print '#~~~~~~> Fuck your Firewall <~~~~~~~#~~~~>your website is down<~~~~#'
- 			print '#~~~> Your website will be down <~~~#~~~>By SadAttack Mass DDoS<~~~#'
+ 			print '                                                                    ' 
+ 			print '4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38'
+                        print '4431264478942389043267532789o43209327478943bf54db17180c8a95add9fdc06'
+			print '4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38'
+ 			print '37353638293tehdueudbd6453739364383tdhe6293udf93745647483y6r648494947'
+ 			print '652627435447389292t737837653768ghdiuehiuheyi3878297928hweiuyw9827y98'
+			print '4734312644bf54db17180c843265tewghjghsayjkaqh264542723a95add9fdc06<38'
  			print '                                                                    '
 			code=500
 	except urllib2.URLError, e:
