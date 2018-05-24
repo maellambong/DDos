@@ -4,7 +4,7 @@ print("""Welcome to Moihack DoS Attack Tool Reloaded
 Command syntax is Target -Port Number -Protocol[TCP/UDP] -Random Packet Creation[On/Off]
 Exaple: 192.168.1.1 -80 -tcp -on
 Please enter a valid command:""")
-command=input().(' -')
+command=input()
 
 Data="qwertyuiopasdfghjklzxcvbnm0123456789~!@#$%^&*()+=`;?.,<>\|{}[]"
 Target=command[0]
