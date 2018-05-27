@@ -2,10 +2,10 @@
 #!/bin/bash
  
 	
- echo "
+ print "
  DDos Tool Build up
  Malaysia family Hacker
- MR A
+ MR A"
  
 ";PS3='Select an option [1-9] Then Press ENTER: '
 options=("DDos Hammer" "DDos Toshammer" "DDos HotSent" "DDos Stable" "DDos Slowloris" "DDos Xerxes" "DDos Fire" "DDos Anonymous.pl"  "Quit")
