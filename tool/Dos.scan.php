@@ -96,9 +96,9 @@ scanlist:
 
     system("clear");
     echo $bold . $blue . "
-      +---------------------------------------------------+
-      +                  INDONESIA CODER CORP             +
-      +---------------------------------------------------+
+                        +----------------------+
+                        + MalaY FaMilY DeFaceR +
+                        +----------------------+
 
             $lblue Scanning Site : " . $fgreen . $ipsl . $ip . $blue . "
       \n\n";
