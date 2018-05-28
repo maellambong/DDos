@@ -23,16 +23,9 @@ $cyan = "\e[36m";
 $bold   = "\e[1m";
 function redhawk_banner(){
   echo "\e[91;1m
-  TOOL INI RECODE DARI : RED_HAWK TOOL GENERIC
-
-  XXXXXXXXX       XXXXXXXXX
-   XXXXXXXXX     XXXXXXXXX
-    XXXXXXXXX   XXXXXXXXX
-     XXXXXXXXXXXXXXXXXXX
-     XXXXXXXXXXXXXXXXXXX
-    XXXXXXXXX   XXXXXXXXX
-   XXXXXXXXX     XXXXXXXXX
-  XXXXXXXXX       XXXXXXXXX _-_ deface
-  \n";
+ WelCome To Malaysia Family Defacer
+         CopyRight By MR A??
+  \n" lolcat ;
+figlet MR A
 }
 ?>
