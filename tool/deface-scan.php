@@ -4,7 +4,6 @@ require 'functions.php';
 require 'var.php';
 echo $cln;
 system("clear");
-redhawk_banner();
 if (extension_loaded('curl') || extension_loaded('dom'))
   {
   }
@@ -140,7 +139,7 @@ askscan:
       }
     else
       {
-        if ($scan == "15")
+        if ($scan == "16")
           {
             goto thephuckinstart;
           }
