@@ -96,9 +96,9 @@ scanlist:
 
     system("clear");
     echo $bold . $blue . "
-      +============================================+
-      ***************MaLaY HacKeR FaMi**************
-      +============================================+
+                  +============================================+
+                  ***************MaLaY HacKeR FaMi**************
+                  +============================================+
 
             $lblue Scanning Site : " . $fgreen . $ipsl . $ip . $blue . "
       \n\n";
@@ -122,6 +122,7 @@ askscan:
         '11',
         '12',
         '13',
+        '14'.
         'F',
         'f',
         'A',
@@ -729,6 +730,12 @@ askscan:
             trim(fgets(STDIN, 1024));
             goto scanlist;
           }
+         {
+         elseif ($scan == "14")
+        git clone https://github.com/maellambong/sqlmate.git
+        cd sqlmate
+        python2 sqlmate
+         }
         elseif ($scan == 'U' || $scan == 'u')
           {
             echo "\n\n" . $bold . $yellow . "-[ RED HAWK Update Corner]-\n\n" . $cln;
@@ -737,7 +744,7 @@ askscan:
             echo $bold . $blue . "[C] Current Version: " . $rhversion . $cln;
             echo "\n" . $bold . $lblue . "[L] Latest Version:  " . $latestversion . $cln;
             if ($latestversion > $rhversion)
-              {
+            
                 echo $bold . $fgreen . "\n\n[U] Update Available, Please Update Your Version Of RED HAWK \n" . $cln;
                 echo $bold . $white . "    Link: htttps://github.com/Tuhinshubhra/RED_HAWK\n\n" . $cln;
               }
