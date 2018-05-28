@@ -716,11 +716,19 @@ askscan:
               }
           }
         elseif ($scan == "13")
-          {
-        git clone https://github.com/maellambong/sqlmate.git
-        cd sqlmate
-        python2 sqlmate
-          }
+          {        
+            $reallink = $ipsl . $ip;
+            $lwwww    = str_replace("www.", "", $ip);
+            echo "\n$cln" . $lblue . $bold . "[+] Scanning Begins ... \n";
+            echo $blue . $bold . "[i] Scanning Site:\e[92m $ipsl" . "$ip \n";
+            echo $bold . $yellow . "[S] Scan Type : MX Lookup" . $cln;
+            echo "\n\n";
+            echo MXlookup($lwwww);
+            echo "\n\n";
+            echo $bold . $yellow . "[*] Scanning Complete. Press Enter To Continue OR CTRL + C To Stop\n\n";
+            trim(fgets(STDIN, 1024));
+            goto scanlist;
+          }         
         elseif ($scan == 'U' || $scan == 'u')
           {
             echo "\n\n" . $bold . $yellow . "-[ RED HAWK Update Corner]-\n\n" . $cln;
