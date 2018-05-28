@@ -4,7 +4,7 @@ require 'functions.php';
 require 'var.php';
 echo $cln;
 system("clear");
-echo "Edit By MR A"
+redhawk_banner();
 if (extension_loaded('curl') || extension_loaded('dom'))
   {
   }
@@ -96,9 +96,9 @@ scanlist:
 
     system("clear");
     echo $bold . $blue . "
-                           +========================================+
-                           *************MaLaY HacKeR FaMi************
-                           +========================================+
+              +============================================+
+              ***************MaLaY HacKeR FaMi**************
+              +============================================+
 
             $lblue Scanning Site : " . $fgreen . $ipsl . $ip . $blue . "
       \n\n";
@@ -716,7 +716,7 @@ askscan:
               }
           }
         elseif ($scan == "13")
-          {        
+          {
             $reallink = $ipsl . $ip;
             $lwwww    = str_replace("www.", "", $ip);
             echo "\n$cln" . $lblue . $bold . "[+] Scanning Begins ... \n";
@@ -728,7 +728,7 @@ askscan:
             echo $bold . $yellow . "[*] Scanning Complete. Press Enter To Continue OR CTRL + C To Stop\n\n";
             trim(fgets(STDIN, 1024));
             goto scanlist;
-          }         
+          }
         elseif ($scan == 'U' || $scan == 'u')
           {
             echo "\n\n" . $bold . $yellow . "-[ RED HAWK Update Corner]-\n\n" . $cln;
