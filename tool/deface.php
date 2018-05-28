@@ -4,7 +4,7 @@ require 'functions.php';
 require 'var.php';
 echo $cln;
 system("clear");
-redhawk_banner();
+figlet "Edit By MR A"
 if (extension_loaded('curl') || extension_loaded('dom'))
   {
   }
