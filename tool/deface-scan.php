@@ -729,8 +729,8 @@ askscan:
             trim(fgets(STDIN, 1024));
             goto scanlist;
           }
-         {
          elseif ($scan == "14")
+          {
         git clone https://github.com/maellambong/sqlmate.git
         cd sqlmate
         python2 sqlmate
