@@ -120,8 +120,7 @@ askscan:
         '10',
         '11',
         '12',
-        '13',
-        '14'.
+        '13',      
         'F',
         'f',
         'A',
@@ -139,7 +138,7 @@ askscan:
       }
     else
       {
-        if ($scan == "16")
+        if ($scan == "15")
           {
             goto thephuckinstart;
           }
@@ -728,13 +727,7 @@ askscan:
             echo $bold . $yellow . "[*] Scanning Complete. Press Enter To Continue OR CTRL + C To Stop\n\n";
             trim(fgets(STDIN, 1024));
             goto scanlist;
-          }
-         elseif ($scan == "14")
-          {
-        git clone https://github.com/maellambong/sqlmate.git
-        cd sqlmate
-        python2 sqlmate
-         }
+          }        
         elseif ($scan == 'U' || $scan == 'u')
           {
             echo "\n\n" . $bold . $yellow . "-[ RED HAWK Update Corner]-\n\n" . $cln;
